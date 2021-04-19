@@ -1,12 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+body, html {
+  height: 100%;
+}
+
+body {font-family: Verdana, sans-serif; margin:0}
+
+
+.bg {
+  /* The image used */
+  background-image: url("images/IMG_4401.jpeg");
+  /*background-image: url("fukayamamo-Cp1LK6zNEZ8-unsplash.jpg");*/
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	position: fixed;
+	width:100%;
+	height: 20%;
+	top: 35%;
+/*	  margin-top: -30px;
+	  padding: 16px;
+*/
+  /*left: 2.8em;*/
+
+  	/*position: relative;*/
+
+  background: grey;
+  /*background: linear-gradient(#e66465, #9198e5);*/
+
+  opacity: 0.5;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;
+	color: white;
+}
+
+/* Add a blue color to the author */
+.author {color: white;}
+</style>
+</head>
+
+
+
+<body class="bg">
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <q>La vita vera comincia dopo aver riordinato</q>
+  <p class="author">- Marie kondo</p>
+</div>
+
+<div class="mySlides">
+  <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+  <p class="author">- Ernest Hemingway</p>
+</div>
+
+<div class="mySlides">
+  <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+  <p class="author">- Thomas A. Edison</p>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)"><</a>
+<a class="next" onclick="plusSlides(1)">></a>
+
+</div>
+
+<!-- <div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+ -->
+<script>
+
+
+
+var slideIndex = Math.floor(Math.random() * (document.getElementsByClassName("mySlides").length)+1    );
+console.log(slideIndex);
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  // var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  // for (i = 0; i < dots.length; i++) {
+  //     dots[i].className = dots[i].className.replace(" active", "");
+  // }
+  slides[slideIndex-1].style.display = "block";  
+  // dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
+
+
+<!--
+
+
+	/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
+
+
+  <script type="text/javascript">
+  	
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}
+	    if (n < 1) {slideIndex = slides.length}
+	    for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";
+	    }
+	    for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	    }
+
+	  console.log(slides);
+	  console.log(slideIndex-1);
+	  console.log(slides[slideIndex-1]);
+	  console.log(1);
+
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	}
+
+
+  </script>
+
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  /*background-image: url("IMG_4401.jpeg");*/
+  background-image: url("fukayamamo-Cp1LK6zNEZ8-unsplash.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 </head>
-<body>
+<body >
+
+
 	
+	<div class="slideshow-container">
+
+	  
+	  <div class="mySlides">
+	    <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+	    <p class="author">- John Keats</p>
+	  </div>
+
+	  <div class="mySlides">
+	    <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+	    <p class="author">- Ernest Hemingway</p>
+	  </div>
+
+	  <div class="mySlides">
+	    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+	    <p class="author">- Thomas A. Edison</p>
+	  </div>
+
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="dot-container">
+	  <span class="dot" onclick="currentSlide(1)"></span>
+	  <span class="dot" onclick="currentSlide(2)"></span>
+	  <span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+
 </body>	
 </html>
-
+-->
 
 <!--
 <p>La vita vera comincia dopo aver riordinato</p>
