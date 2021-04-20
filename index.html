@@ -104,8 +104,8 @@ q {font-style: italic;
 </div>
 
 <div class="mySlides">
-  <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
-  <p class="author">- Ernest Hemingway</p>
+  <q>I vincenti sono coloro che giocano di anticipo, mentre i perdenti si limitano a reagire ciò che accade.</q>
+  <p class="author">- Anthony Robins</p>
 </div>
 
 <div class="mySlides">
@@ -127,10 +127,29 @@ q {font-style: italic;
 <script>
 
 
+//****************************************************
+// INIT
+var images = [
+"IMG_4401.jpeg",
+ "fukayamamo-Cp1LK6zNEZ8-unsplash.jpg"
+]
+
+
+
+var imageIndex = Math.floor(Math.random() * (images.length));
+console.log ("imageIndex: " + imageIndex);
+
+var image_url = images[imageIndex];
+document.body.style.backgroundImage = "url('images/"+ image_url + "')";
+
 
 var slideIndex = Math.floor(Math.random() * (document.getElementsByClassName("mySlides").length)+1    );
-console.log(slideIndex);
+console.log("slideIndex: " + slideIndex);
 showSlides(slideIndex);
+
+//****************************************************
+
+
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
