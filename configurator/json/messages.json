@@ -1,0 +1,205 @@
+{
+  "rows": [
+    { "key": "common.previous", "en": "previous", "it": "indietro" },
+    { "key": "common.next", "en": "next", "it": "avanti" },
+    {
+      "key": "common.error.step_incompleted",
+      "en": "ECompleta la selezione per procedere",
+      "it": "Completa la selezione per procedere"
+    },
+    {
+      "key": "intro.title",
+      "en": "How to configure your air conditioning system with the proAir® ciccio system",
+      "it": "Come configurare il tuo impianto di climatizzazione con il sistema proAIR"
+    },
+    {
+      "key": "intro.subtitle",
+      "en": "Answer 10 questions to find the right ProAir Pack for you",
+      "it": "Rispondi a 10 domande per trovare il ProAir Pack adatto a te"
+    },
+    { "key": "common.summary", "en": "Summary", "it": "Riepilogo" },
+    {
+      "key": "common.error.required_name",
+      "en": "EInserire nome e cogome",
+      "it": "Inserire nome e cogome"
+    },
+    {
+      "key": "common.error.required_or_invalid_email",
+      "en": "EInserire email valida",
+      "it": "Inserire email valida"
+    },
+    { "key": "common.input.name", "en": "Name", "it": "Nome e Cognome" },
+    { "key": "step1.start", "en": "EINIZIA", "it": "INIZIA" },
+    {
+      "key": "step2.title",
+      "en": "EScegli il marchio della macchina canalizzata",
+      "it": "Scegli il marchio della macchina canalizzata"
+    },
+    { "key": "step2.brand", "en": "EBrand", "it": "Brand" },
+    {
+      "key": "step3.title",
+      "en": "E{{brand}} Scegli il modello",
+      "it": "{{brand}} Scegli il modello"
+    },
+    { "key": "step3.model", "en": "EModello", "it": "Modello" },
+    {
+      "key": "step4.title",
+      "en": "EScegli il numero di zone per {{brand}} {{model}}",
+      "it": "Scegli il numero di zone per {{brand}} {{model}}"
+    },
+    { "key": "step4.zone", "en": "ENumero di zone", "it": "Numero di zone" },
+    {
+      "key": "step5.title",
+      "en": "EScegli la centralina con protocollo per  {{brand}} {{model}}",
+      "it": "Scegli la centralina con protocollo per  {{brand}} {{model}}"
+    },
+    { "key": "step5.controlunit", "en": "ECentralina", "it": "Centralina" },
+    {
+      "key": "step6.title",
+      "en": "EScegli il Plenum per {{brand}} {{model}}",
+      "it": "Scegli il Plenum per {{brand}} {{model}}"
+    },
+    {
+      "key": "step6.nb",
+      "en": "Enb:controllare attentamente le dimensioni di ingombro del plenum",
+      "it": "nb:controllare attentamente le dimensioni di ingombro del plenum"
+    },
+    { "key": "step6.plenum", "en": "EPlenum", "it": "Plenum" },
+    {
+      "key": "step7.title",
+      "en": "EScegli la combinazione del cronotermostato per {{brand}} {{model}}",
+      "it": "Scegli la combinazione del cronotermostato per {{brand}} {{model}}"
+    },
+    {
+      "key": "step7.title.left",
+      "en": "ERadio Frequenza 2 x 1,5 V tipo AA",
+      "it": "Radio Frequenza 2 x 1,5 V tipo AA"
+    },
+    { "key": "step7.title.right", "en": "ECablato", "it": "Cablato" },
+    {
+      "key": "step7.chronothermostat",
+      "en": "ECronotermostato",
+      "it": "Cronotermostato"
+    },
+    {
+      "key": "step8.title",
+      "en": "EScegli il colore del cronotermostato zona per zona",
+      "it": "Scegli il colore del cronotermostato zona per zona"
+    },
+    { "key": "step8.summary.addendum", "en": "", "it": "" },
+    { "key": "step8.zone", "en": "EZona {{NNN}}", "it": "Zona {{NNN}}" },
+    { "key": "step8.whiteupper", "en": "EBIANCO LUMIX", "it": "BIANCO LUMIX" },
+    { "key": "step8.white", "en": "EBianco Lumix", "it": "Bianco Lumix" },
+    {
+      "key": "step8.greyupper",
+      "en": "EGRIGIO TITANIO",
+      "it": "GRIGIO TITANIO"
+    },
+    { "key": "step8.grey", "en": "EGrigio Titanio", "it": "Grigio Titanio" },
+    {
+      "key": "step8.blackupper",
+      "en": "ENERO PROFONDO",
+      "it": "NERO PROFONDO"
+    },
+    { "key": "step8.black", "en": "ENero Profondo", "it": "Nero Profondo" },
+    {
+      "key": "step9.title",
+      "en": "EScegli il Kit di completamento per {{brand}} {{model}}",
+      "it": "Scegli il Kit di completamento per {{brand}} {{model}}"
+    },
+    { "key": "step9.kit", "en": "EKit", "it": "Kit" },
+    {
+      "key": "step9.kit125",
+      "en": "EKIT RAPID DIAMETRO 125 BOCCHETTE ALETTE REGOLABILI",
+      "it": "KIT RAPID DIAMETRO 125 BOCCHETTE ALETTE REGOLABILI"
+    },
+    {
+      "key": "step9.kit150",
+      "en": "EKIT RAPID DIAMETRO 150 BOCCHETTE ALETTE REGOLABILI",
+      "it": "KIT RAPID DIAMETRO 150 BOCCHETTE ALETTE REGOLABILI"
+    },
+    {
+      "key": "step9.kit200",
+      "en": "EKIT RAPID DIAMETRO 200 BOCCHETTE ALETTE REGOLABILI",
+      "it": "KIT RAPID DIAMETRO 200 BOCCHETTE ALETTE REGOLABILI"
+    },
+    {
+      "key": "step9.kit150inclinate",
+      "en": "EKIT RAPID DIAMETRO 150 BOCCHETTE ALETTE INCLINATE 15°",
+      "it": "KIT RAPID DIAMETRO 150 BOCCHETTE ALETTE INCLINATE 15°"
+    },
+    {
+      "key": "step9.kit150diffusori",
+      "en": "EKIT RAPID DIAMETRO 150 CON DIFFUSORI LINEARI",
+      "it": "KIT RAPID DIAMETRO 150 CON DIFFUSORI LINEARI"
+    },
+    {
+      "key": "step10.title",
+      "en": "EScegli gli accessori",
+      "it": "Scegli gli accessori"
+    },
+    { "key": "step10.rele", "en": "EModulo Relè", "it": "Modulo Relè" },
+    {
+      "key": "step10.reledescription",
+      "en": "EModulo relè 4 zone per impianti radianti e per fancoil",
+      "it": "Modulo relè 4 zone per impianti radianti e per fancoil"
+    },
+    { "key": "step10.quantity", "en": "EQuantità", "it": "Quantità" },
+    {
+      "key": "step10.popover",
+      "en": "ELore Ipsum Relè...",
+      "it": "Lore Ipsum Relè..."
+    },
+    {
+      "key": "step11.title]",
+      "en": "EScegli gli accessori",
+      "it": "Scegli gli accessori"
+    },
+    {
+      "key": "step11.windowcontact",
+      "en": "EContatto finestra",
+      "it": "Contatto finestra"
+    },
+    {
+      "key": "step11.windowcontactdescription",
+      "en": "EContatto finestra in radio frequenza",
+      "it": "Contatto finestra in radio frequenza"
+    },
+    { "key": "step11.quantity", "en": "EQuantità", "it": "Quantità" },
+    {
+      "key": "step11.popover",
+      "en": "ELore Ipsum Contatto Finestra...",
+      "it": "Lore Ipsum Contatto Finestra..."
+    },
+    { "key": "step12.title", "en": "EScarica il PDF", "it": "Scarica il PDF" },
+    {
+      "key": "step12.scarica.privacy",
+      "en": "EAccetto i Termini di Utilizzo e la Privacy Policy",
+      "it": "Accetto i Termini di Utilizzo e la Privacy Policy"
+    },
+    { "key": "step12.download", "en": "ESCARICA", "it": "SCARICA" },
+    {
+      "key": "step5.popover.3x",
+      "en": "- EPORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE",
+      "it": "- PORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE"
+    },
+    {
+      "key": "step5.popover.4x",
+      "en": "- EDISPONIBILE PER ALEXA E GOOGLE HOME\n - PORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE",
+      "it": "- DISPONIBILE PER ALEXA E GOOGLE HOME\n - PORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE"
+    },
+    { "key": "step6.popover.EOLO3", "en": "", "it": "" },
+    { "key": "step6.popover.LAM2", "en": "", "it": "" },
+    { "key": "step6.popover.MINI_EOLO3", "en": "", "it": "" },
+    { "key": "step6.popover.LAM3", "en": "", "it": "" },
+    { "key": "step6.popover.EOLO4", "en": "", "it": "" },
+    { "key": "step6.popover.EOLO5", "en": "", "it": "" },
+    { "key": "step6.popover.LAM4", "en": "", "it": "" },
+    { "key": "step6.popover.LAM5", "en": "", "it": "" },
+    { "key": "step6.popover.LAM6", "en": "", "it": "" },
+    { "key": "step6.popover.MINI_EOLO4", "en": "", "it": "" },
+    { "key": "step6.popover.EOLO2", "en": "", "it": "" },
+    { "key": "step6.popover.LAM7", "en": "", "it": "" },
+    { "key": "step6.popover.LAM8", "en": "", "it": "" }
+  ]
+}

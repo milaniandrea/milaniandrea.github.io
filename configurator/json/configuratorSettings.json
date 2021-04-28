@@ -1,0 +1,805 @@
+{
+  "rows": [
+    { "step": "1", "key": "type", "val": "Intro", "esempionote": "" },
+    {
+      "step": "1",
+      "key": "title",
+      "val": "[[intro.title]]",
+      "esempionote": ""
+    },
+    {
+      "step": "1",
+      "key": "subtitle",
+      "val": "[[intro.subtitle]]",
+      "esempionote": ""
+    },
+    {
+      "step": "1",
+      "key": "buttonLabel",
+      "val": "[[step1.start]]",
+      "esempionote": ""
+    },
+    { "step": "2", "key": "type", "val": "RadioGroupStep", "esempionote": "" },
+    { "step": "2", "key": "progress", "val": "10", "esempionote": "" },
+    {
+      "step": "2",
+      "key": "title",
+      "val": "[[step2.title]]",
+      "esempionote": ""
+    },
+    { "step": "2", "key": "subtitle", "val": "", "esempionote": "" },
+    {
+      "step": "2",
+      "key": "dataLabel",
+      "val": "[[step2.brand]]",
+      "esempionote": ""
+    },
+    { "step": "2", "key": "dataKey", "val": "brand", "esempionote": "" },
+    { "step": "2", "key": "putInSummary", "val": "true", "esempionote": "" },
+    { "step": "3", "key": "type", "val": "RadioGroupStep", "esempionote": "" },
+    { "step": "3", "key": "progress", "val": "20", "esempionote": "" },
+    {
+      "step": "3",
+      "key": "title",
+      "val": "[[step3.title]]",
+      "esempionote": "\"Daikin: Scegli il modello\""
+    },
+    { "step": "3", "key": "subtitle", "val": "", "esempionote": "" },
+    {
+      "step": "3",
+      "key": "dataLabel",
+      "val": "[[step3.model]]",
+      "esempionote": ""
+    },
+    {
+      "step": "3",
+      "key": "dataKey",
+      "val": "model",
+      "esempionote": "Colonna di riferimento"
+    },
+    { "step": "3", "key": "putInSummary", "val": "true", "esempionote": "" },
+    { "step": "4", "key": "type", "val": "RadioGroupStep", "esempionote": "" },
+    { "step": "4", "key": "progress", "val": "30", "esempionote": "" },
+    {
+      "step": "4",
+      "key": "title",
+      "val": "[[step4.title]]",
+      "esempionote": ""
+    },
+    { "step": "4", "key": "subtitle", "val": "", "esempionote": "" },
+    {
+      "step": "4",
+      "key": "dataLabel",
+      "val": "[[step4.zone]]",
+      "esempionote": ""
+    },
+    { "step": "4", "key": "dataKey", "val": "zone", "esempionote": "" },
+    { "step": "4", "key": "putInSummary", "val": "false", "esempionote": "" },
+    {
+      "step": "5",
+      "key": "type",
+      "val": "CardsRadioGroupStep",
+      "esempionote": ""
+    },
+    { "step": "5", "key": "progress", "val": "40", "esempionote": "" },
+    {
+      "step": "5",
+      "key": "title",
+      "val": "[[step5.title]]",
+      "esempionote": ""
+    },
+    { "step": "5", "key": "subtitle", "val": "", "esempionote": "" },
+    { "step": "5", "key": "nbText", "val": "", "esempionote": "" },
+    {
+      "step": "5",
+      "key": "dataLabel",
+      "val": "[[step5.controlunit]]",
+      "esempionote": ""
+    },
+    { "step": "5", "key": "dataKey", "val": "centralina", "esempionote": "" },
+    { "step": "5", "key": "putInSummary", "val": "true", "esempionote": "" },
+    {
+      "step": "6",
+      "key": "type",
+      "val": "CardsRadioGroupStep",
+      "esempionote": ""
+    },
+    { "step": "6", "key": "progress", "val": "50", "esempionote": "" },
+    {
+      "step": "6",
+      "key": "title",
+      "val": "[[step6.title]]",
+      "esempionote": ""
+    },
+    { "step": "6", "key": "subtitle", "val": "", "esempionote": "" },
+    { "step": "6", "key": "nbText", "val": "[[step6.nb]]", "esempionote": "" },
+    {
+      "step": "6",
+      "key": "dataLabel",
+      "val": "[[step6.plenum]]",
+      "esempionote": ""
+    },
+    { "step": "6", "key": "dataKey", "val": "plenum", "esempionote": "" },
+    { "step": "6", "key": "putInSummary", "val": "true", "esempionote": "" },
+    {
+      "step": "7",
+      "key": "type",
+      "val": "CardsRadioGroupDoubleStep",
+      "esempionote": "TODO"
+    },
+    { "step": "7", "key": "progress", "val": "60", "esempionote": "" },
+    {
+      "step": "7",
+      "key": "title",
+      "val": "[[step7.title]]",
+      "esempionote": ""
+    },
+    { "step": "7", "key": "subtitle", "val": "", "esempionote": "" },
+    {
+      "step": "7",
+      "key": "groupLeft.text",
+      "val": "[[step7.title.left]]",
+      "esempionote": ""
+    },
+    {
+      "step": "7",
+      "key": "groupLeft.img",
+      "val": "wifi.png",
+      "esempionote": ""
+    },
+    { "step": "7", "key": "groupLeft.key", "val": "rf", "esempionote": "" },
+    {
+      "step": "7",
+      "key": "groupRight.text",
+      "val": "[[step7.title.right]]",
+      "esempionote": ""
+    },
+    {
+      "step": "7",
+      "key": "groupRight.img",
+      "val": "wired.png",
+      "esempionote": ""
+    },
+    {
+      "step": "7",
+      "key": "groupRight.key",
+      "val": "cablato",
+      "esempionote": "In base a questo mette la centralina nel gruppo dx"
+    },
+    {
+      "step": "7",
+      "key": "dataLabel",
+      "val": "[[step7.chronothermostat]]",
+      "esempionote": ""
+    },
+    {
+      "step": "7",
+      "key": "dataKey",
+      "val": "cronotermostato",
+      "esempionote": ""
+    },
+    { "step": "7", "key": "putInSummary", "val": "false", "esempionote": "" },
+    {
+      "step": "8",
+      "key": "type",
+      "val": "CardsRadioGroupCollectionStep",
+      "esempionote": ""
+    },
+    { "step": "8", "key": "progress", "val": "70", "esempionote": "" },
+    {
+      "step": "8",
+      "key": "title",
+      "val": "[[step8.title]]",
+      "esempionote": ""
+    },
+    { "step": "8", "key": "subtitle", "val": "", "esempionote": "" },
+    { "step": "8", "key": "putInSummary", "val": "true", "esempionote": "" },
+    {
+      "step": "8",
+      "key": "summaryAddendum.visibleIf",
+      "val": "{{cronotermostato}}='discovery-and-probe' ",
+      "esempionote": "Condizione per mostrare una riga supplementare nel sommario"
+    },
+    {
+      "step": "8",
+      "key": "summaryAddendum.quantity",
+      "val": "{{zone}}-1",
+      "esempionote": "Quantità da visualizzare prima a inizio testo addendum"
+    },
+    {
+      "step": "8",
+      "key": "summaryAddendum.text",
+      "val": "LEM",
+      "esempionote": "testo da visualizzare nel sommario dopo la quantità"
+    },
+    {
+      "step": "8",
+      "key": "group1.label",
+      "val": "Discovery 2X",
+      "esempionote": "descrizione anche in sommario"
+    },
+    {
+      "step": "8",
+      "key": "group1.key",
+      "val": "colorDiscovery_{{NNN}}",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group1.description",
+      "val": "[[step8.zone]]",
+      "esempionote": "{{NNN}} può essere spostato nella stringa o rimosso"
+    },
+    {
+      "step": "8",
+      "key": "group1.visibleIf",
+      "val": "{{cronotermostato}}='discovery-and-mini', {{cronotermostato}}='discovery-and-probe' ",
+      "esempionote": "Quando va visualizzato questo gruppo (condizioni seprate da virgola)"
+    },
+    {
+      "step": "8",
+      "key": "group1.repeat",
+      "val": "1",
+      "esempionote": "Quante volte ripetere questo gruppo"
+    },
+    {
+      "step": "8",
+      "key": "group1.img",
+      "val": "discovery2x.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group1.option1.label",
+      "val": "[[step8.whiteupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group1.option1.thumbImg",
+      "val": "white.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group1.option1.value",
+      "val": "[[step8.white]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group1.option2.label",
+      "val": "[[step8.greyupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group1.option2.thumbImg",
+      "val": "grey.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group1.option2.value",
+      "val": "[[step8.grey]]",
+      "esempionote": "viene visualizzato in sommario"
+    },
+    {
+      "step": "8",
+      "key": "group1.option3.label",
+      "val": "[[step8.blackupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group1.option3.thumbImg",
+      "val": "black.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group1.option3.value",
+      "val": "[[step8.black]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.label",
+      "val": "Discovery 2X",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.key",
+      "val": "colorDiscovery_{{NNN}}",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.description",
+      "val": "[[step8.zone]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.visibleIf",
+      "val": "{{cronotermostato}}='all-discovery'",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.repeat",
+      "val": "{{zone}}",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.img",
+      "val": "discovery2x.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.option1.label",
+      "val": "[[step8.whiteupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.option1.thumbImg",
+      "val": "white.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.option1.value",
+      "val": "[[step8.white]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.option2.label",
+      "val": "[[step8.greyupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.option2.thumbImg",
+      "val": "grey.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.option2.value",
+      "val": "[[step8.grey]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.option3.label",
+      "val": "[[step8.blackupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.option3.thumbImg",
+      "val": "black.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group2.option3.value",
+      "val": "[[step8.black]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.label",
+      "val": "Mini Discovery 2X",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.key",
+      "val": "colorMiniDiscovery_{{NNN}}",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.description",
+      "val": "[[step8.zone]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.visibleIf",
+      "val": "{{cronotermostato}}='discovery-and-mini'",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.repeat",
+      "val": "{{zone}}-1",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.img",
+      "val": "minidiscovery.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.option1.label",
+      "val": "[[step8.whiteupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.option1.thumbImg",
+      "val": "white.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.option1.value",
+      "val": "[[step8.white]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.option2.label",
+      "val": "[[step8.greyupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.option2.thumbImg",
+      "val": "grey.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.option2.value",
+      "val": "[[step8.grey]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.option3.label",
+      "val": "[[step8.blackupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.option3.thumbImg",
+      "val": "black.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group3.option3.value",
+      "val": "[[step8.black]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.label",
+      "val": "Stealth 2X",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.key",
+      "val": "colorStealth_{{NNN}}",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.description",
+      "val": "[[step8.zone]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.visibleIf",
+      "val": "{{cronotermostato}}='all-stealth'",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.repeat",
+      "val": "{{zone}}",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.img",
+      "val": "stealth2x.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.option1.label",
+      "val": "[[step8.whiteupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.option1.thumbImg",
+      "val": "white.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.option1.value",
+      "val": "[[step8.white]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.option2.label",
+      "val": "[[step8.greyupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.option2.thumbImg",
+      "val": "grey.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.option2.value",
+      "val": "[[step8.grey]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.option3.label",
+      "val": "[[step8.blackupper]]",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.option3.thumbImg",
+      "val": "black.png",
+      "esempionote": ""
+    },
+    {
+      "step": "8",
+      "key": "group4.option3.value",
+      "val": "[[step8.black]]",
+      "esempionote": ""
+    },
+    {
+      "step": "9",
+      "key": "type",
+      "val": "CardsRadioGroupMulticolumnStep",
+      "esempionote": "legge più colonne e visualizza solo se non nullo in una colonna"
+    },
+    { "step": "9", "key": "progress", "val": "80", "esempionote": "" },
+    {
+      "step": "9",
+      "key": "title",
+      "val": "[[step9.title]]",
+      "esempionote": ""
+    },
+    { "step": "9", "key": "subtitle", "val": "", "esempionote": "" },
+    { "step": "9", "key": "nbText", "val": "", "esempionote": "" },
+    {
+      "step": "9",
+      "key": "dataLabel",
+      "val": "[[step9.kit",
+      "esempionote": ""
+    },
+    { "step": "9", "key": "dataKey", "val": "kit", "esempionote": "" },
+    { "step": "9", "key": "putInSummary", "val": "true", "esempionote": "" },
+    {
+      "step": "9",
+      "key": "column1.label",
+      "val": "[[step9.kit125]]",
+      "esempionote": ""
+    },
+    { "step": "9", "key": "column1.key", "val": "kit125", "esempionote": "" },
+    {
+      "step": "9",
+      "key": "column1.img",
+      "val": "no-img-placeholder.png",
+      "esempionote": ""
+    },
+    {
+      "step": "9",
+      "key": "column2.label",
+      "val": "[[step9.kit150]]",
+      "esempionote": ""
+    },
+    { "step": "9", "key": "column2.key", "val": "kit150", "esempionote": "" },
+    {
+      "step": "9",
+      "key": "column2.img",
+      "val": "kit150.png",
+      "esempionote": ""
+    },
+    {
+      "step": "9",
+      "key": "column3.label",
+      "val": "[[step9.kit200]]",
+      "esempionote": ""
+    },
+    { "step": "9", "key": "column3.key", "val": "kit200", "esempionote": "" },
+    {
+      "step": "9",
+      "key": "column3.img",
+      "val": "kit200.png",
+      "esempionote": ""
+    },
+    {
+      "step": "9",
+      "key": "column4.label",
+      "val": "[[step9.kit150inclinate]]",
+      "esempionote": ""
+    },
+    {
+      "step": "9",
+      "key": "column4.key",
+      "val": "kit150inclinate",
+      "esempionote": ""
+    },
+    {
+      "step": "9",
+      "key": "column4.img",
+      "val": "no-img-placeholder.png",
+      "esempionote": ""
+    },
+    {
+      "step": "9",
+      "key": "column5.label",
+      "val": "[[step9.kit150diffusori]]",
+      "esempionote": ""
+    },
+    {
+      "step": "9",
+      "key": "column5.key",
+      "val": "kit150diffusori",
+      "esempionote": ""
+    },
+    {
+      "step": "9",
+      "key": "column5.img",
+      "val": "kit150diffusori.png",
+      "esempionote": ""
+    },
+    {
+      "step": "10",
+      "key": "type",
+      "val": "CardsQuantityGroupStep",
+      "esempionote": ""
+    },
+    { "step": "10", "key": "progress", "val": "90", "esempionote": "" },
+    {
+      "step": "10",
+      "key": "title",
+      "val": "[[step10.title]]",
+      "esempionote": ""
+    },
+    { "step": "10", "key": "subtitle", "val": "", "esempionote": "" },
+    { "step": "10", "key": "putInSummary", "val": "true", "esempionote": "" },
+    {
+      "step": "10",
+      "key": "dataLabel",
+      "val": "[[step10.rele]]",
+      "esempionote": ""
+    },
+    { "step": "10", "key": "dataKey", "val": "rele", "esempionote": "" },
+    {
+      "step": "10",
+      "key": "description",
+      "val": "[[step10.reledescription]]",
+      "esempionote": ""
+    },
+    { "step": "10", "key": "img", "val": "rele.png", "esempionote": "" },
+    {
+      "step": "10",
+      "key": "quantityLabel",
+      "val": "[[step10.quantity]]",
+      "esempionote": ""
+    },
+    {
+      "step": "10",
+      "key": "quantityKey",
+      "val": "releQuantity",
+      "esempionote": ""
+    },
+    {
+      "step": "10",
+      "key": "popover",
+      "val": "[[step10.popover]]",
+      "esempionote": ""
+    },
+    {
+      "step": "11",
+      "key": "type",
+      "val": "CardsQuantityGroupStep",
+      "esempionote": ""
+    },
+    { "step": "11", "key": "progress", "val": "95", "esempionote": "" },
+    {
+      "step": "11",
+      "key": "title",
+      "val": "[[step11.title]",
+      "esempionote": ""
+    },
+    { "step": "11", "key": "subtitle", "val": "", "esempionote": "" },
+    { "step": "11", "key": "putInSummary", "val": "true", "esempionote": "" },
+    {
+      "step": "11",
+      "key": "dataLabel",
+      "val": "[[step11.windowcontact]]",
+      "esempionote": ""
+    },
+    {
+      "step": "11",
+      "key": "dataKey",
+      "val": "contattoFinestra",
+      "esempionote": ""
+    },
+    {
+      "step": "11",
+      "key": "description",
+      "val": "[[step11.windowcontactdescription]]",
+      "esempionote": ""
+    },
+    {
+      "step": "11",
+      "key": "img",
+      "val": "contatto_finestra.png",
+      "esempionote": ""
+    },
+    {
+      "step": "11",
+      "key": "quantityLabel",
+      "val": "[[step11.quantity]]",
+      "esempionote": ""
+    },
+    {
+      "step": "11",
+      "key": "quantityKey",
+      "val": "contattoFinestraQuantity",
+      "esempionote": ""
+    },
+    {
+      "step": "11",
+      "key": "popover",
+      "val": "[[step11.popover]]",
+      "esempionote": ""
+    },
+    { "step": "12", "key": "type", "val": "ReviewPdf", "esempionote": "" },
+    { "step": "12", "key": "progress", "val": "100", "esempionote": "" },
+    {
+      "step": "12",
+      "key": "title",
+      "val": "[[step12.title]]",
+      "esempionote": ""
+    },
+    { "step": "12", "key": "subtitle", "val": "", "esempionote": "" },
+    {
+      "step": "12",
+      "key": "privacyLabel",
+      "val": "[[step12.scarica.privacy]]",
+      "esempionote": ""
+    },
+    {
+      "step": "12",
+      "key": "privacyLink",
+      "val": "https://loremipsum.io/privacy-policy/",
+      "esempionote": ""
+    },
+    {
+      "step": "12",
+      "key": "buttonLabel",
+      "val": "[[step12.download]]",
+      "esempionote": ""
+    }
+  ]
+}
