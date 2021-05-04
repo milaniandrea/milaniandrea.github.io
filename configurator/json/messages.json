@@ -1,205 +1,367 @@
 {
   "rows": [
-    { "key": "common.previous", "en": "previous", "it": "indietro" },
-    { "key": "common.next", "en": "next", "it": "avanti" },
+    {
+      "key": "common.previous",
+      "en": "previous",
+      "it": "indietro",
+      "note": ""
+    },
+    { "key": "common.next", "en": "next", "it": "avanti", "note": "" },
     {
       "key": "common.error.step_incompleted",
-      "en": "ECompleta la selezione per procedere",
-      "it": "Completa la selezione per procedere"
+      "en": "Complete the selection to go ahead",
+      "it": "Completa la selezione per procedere",
+      "note": ""
     },
     {
       "key": "intro.title",
-      "en": "How to configure your air conditioning system with the proAir® ciccio system",
-      "it": "Come configurare il tuo impianto di climatizzazione con il sistema proAIR"
+      "en": "How to configure your air conditioning system with the proAIR system",
+      "it": "Come configurare il tuo impianto di climatizzazione con il sistema proAIR",
+      "note": ""
     },
     {
       "key": "intro.subtitle",
       "en": "Answer 10 questions to find the right ProAir Pack for you",
-      "it": "Rispondi a 10 domande per trovare il ProAir Pack adatto a te"
+      "it": "Rispondi a 10 domande per trovare il ProAir Pack adatto a te",
+      "note": ""
     },
-    { "key": "common.summary", "en": "Summary", "it": "Riepilogo" },
+    { "key": "common.summary", "en": "Summary", "it": "Riepilogo", "note": "" },
     {
       "key": "common.error.required_name",
-      "en": "EInserire nome e cogome",
-      "it": "Inserire nome e cogome"
+      "en": "Insert name and surname",
+      "it": "Inserire nome e cognome",
+      "note": ""
     },
     {
       "key": "common.error.required_or_invalid_email",
-      "en": "EInserire email valida",
-      "it": "Inserire email valida"
+      "en": "Insert a valid name",
+      "it": "Inserire email valida",
+      "note": ""
     },
-    { "key": "common.input.name", "en": "Name", "it": "Nome e Cognome" },
-    { "key": "step1.start", "en": "EINIZIA", "it": "INIZIA" },
+    {
+      "key": "common.input.name",
+      "en": "Name",
+      "it": "Nome e Cognome",
+      "note": ""
+    },
+    { "key": "step1.start", "en": "START", "it": "INIZIA", "note": "" },
     {
       "key": "step2.title",
-      "en": "EScegli il marchio della macchina canalizzata",
-      "it": "Scegli il marchio della macchina canalizzata"
+      "en": "Select brand of the canalized unit",
+      "it": "Scegli il marchio della macchina canalizzata",
+      "note": ""
     },
-    { "key": "step2.brand", "en": "EBrand", "it": "Brand" },
+    { "key": "step2.brand", "en": "Brand", "it": "Brand", "note": "" },
     {
       "key": "step3.title",
-      "en": "E{{brand}} Scegli il modello",
-      "it": "{{brand}} Scegli il modello"
+      "en": "{{brand}} Select brand",
+      "it": "{{brand}} Scegli il modello",
+      "note": ""
     },
-    { "key": "step3.model", "en": "EModello", "it": "Modello" },
+    { "key": "step3.model", "en": "Model", "it": "Modello", "note": "" },
     {
       "key": "step4.title",
-      "en": "EScegli il numero di zone per {{brand}} {{model}}",
-      "it": "Scegli il numero di zone per {{brand}} {{model}}"
+      "en": "Select how many zones for {{brand}} {{model}}",
+      "it": "Scegli il numero di zone per {{brand}} {{model}}",
+      "note": ""
     },
-    { "key": "step4.zone", "en": "ENumero di zone", "it": "Numero di zone" },
+    {
+      "key": "step4.zone",
+      "en": "Number of zones",
+      "it": "Numero di zone",
+      "note": ""
+    },
     {
       "key": "step5.title",
-      "en": "EScegli la centralina con protocollo per  {{brand}} {{model}}",
-      "it": "Scegli la centralina con protocollo per  {{brand}} {{model}}"
-    },
-    { "key": "step5.controlunit", "en": "ECentralina", "it": "Centralina" },
-    {
-      "key": "step6.title",
-      "en": "EScegli il Plenum per {{brand}} {{model}}",
-      "it": "Scegli il Plenum per {{brand}} {{model}}"
+      "en": "Choose the control unit with protocolo for {{brand}} {{model}}",
+      "it": "Scegli la centralina con protocollo per {{brand}} {{model}}",
+      "note": ""
     },
     {
-      "key": "step6.nb",
-      "en": "Enb:controllare attentamente le dimensioni di ingombro del plenum",
-      "it": "nb:controllare attentamente le dimensioni di ingombro del plenum"
+      "key": "step5.controlunit",
+      "en": "Control Unit",
+      "it": "Centralina",
+      "note": ""
     },
-    { "key": "step6.plenum", "en": "EPlenum", "it": "Plenum" },
-    {
-      "key": "step7.title",
-      "en": "EScegli la combinazione del cronotermostato per {{brand}} {{model}}",
-      "it": "Scegli la combinazione del cronotermostato per {{brand}} {{model}}"
-    },
-    {
-      "key": "step7.title.left",
-      "en": "ERadio Frequenza 2 x 1,5 V tipo AA",
-      "it": "Radio Frequenza 2 x 1,5 V tipo AA"
-    },
-    { "key": "step7.title.right", "en": "ECablato", "it": "Cablato" },
-    {
-      "key": "step7.chronothermostat",
-      "en": "ECronotermostato",
-      "it": "Cronotermostato"
-    },
-    {
-      "key": "step8.title",
-      "en": "EScegli il colore del cronotermostato zona per zona",
-      "it": "Scegli il colore del cronotermostato zona per zona"
-    },
-    { "key": "step8.summary.addendum", "en": "", "it": "" },
-    { "key": "step8.zone", "en": "EZona {{NNN}}", "it": "Zona {{NNN}}" },
-    { "key": "step8.whiteupper", "en": "EBIANCO LUMIX", "it": "BIANCO LUMIX" },
-    { "key": "step8.white", "en": "EBianco Lumix", "it": "Bianco Lumix" },
-    {
-      "key": "step8.greyupper",
-      "en": "EGRIGIO TITANIO",
-      "it": "GRIGIO TITANIO"
-    },
-    { "key": "step8.grey", "en": "EGrigio Titanio", "it": "Grigio Titanio" },
-    {
-      "key": "step8.blackupper",
-      "en": "ENERO PROFONDO",
-      "it": "NERO PROFONDO"
-    },
-    { "key": "step8.black", "en": "ENero Profondo", "it": "Nero Profondo" },
-    {
-      "key": "step9.title",
-      "en": "EScegli il Kit di completamento per {{brand}} {{model}}",
-      "it": "Scegli il Kit di completamento per {{brand}} {{model}}"
-    },
-    { "key": "step9.kit", "en": "EKit", "it": "Kit" },
-    {
-      "key": "step9.kit125",
-      "en": "EKIT RAPID DIAMETRO 125 BOCCHETTE ALETTE REGOLABILI",
-      "it": "KIT RAPID DIAMETRO 125 BOCCHETTE ALETTE REGOLABILI"
-    },
-    {
-      "key": "step9.kit150",
-      "en": "EKIT RAPID DIAMETRO 150 BOCCHETTE ALETTE REGOLABILI",
-      "it": "KIT RAPID DIAMETRO 150 BOCCHETTE ALETTE REGOLABILI"
-    },
-    {
-      "key": "step9.kit200",
-      "en": "EKIT RAPID DIAMETRO 200 BOCCHETTE ALETTE REGOLABILI",
-      "it": "KIT RAPID DIAMETRO 200 BOCCHETTE ALETTE REGOLABILI"
-    },
-    {
-      "key": "step9.kit150inclinate",
-      "en": "EKIT RAPID DIAMETRO 150 BOCCHETTE ALETTE INCLINATE 15°",
-      "it": "KIT RAPID DIAMETRO 150 BOCCHETTE ALETTE INCLINATE 15°"
-    },
-    {
-      "key": "step9.kit150diffusori",
-      "en": "EKIT RAPID DIAMETRO 150 CON DIFFUSORI LINEARI",
-      "it": "KIT RAPID DIAMETRO 150 CON DIFFUSORI LINEARI"
-    },
-    {
-      "key": "step10.title",
-      "en": "EScegli gli accessori",
-      "it": "Scegli gli accessori"
-    },
-    { "key": "step10.rele", "en": "EModulo Relè", "it": "Modulo Relè" },
-    {
-      "key": "step10.reledescription",
-      "en": "EModulo relè 4 zone per impianti radianti e per fancoil",
-      "it": "Modulo relè 4 zone per impianti radianti e per fancoil"
-    },
-    { "key": "step10.quantity", "en": "EQuantità", "it": "Quantità" },
-    {
-      "key": "step10.popover",
-      "en": "ELore Ipsum Relè...",
-      "it": "Lore Ipsum Relè..."
-    },
-    {
-      "key": "step11.title]",
-      "en": "EScegli gli accessori",
-      "it": "Scegli gli accessori"
-    },
-    {
-      "key": "step11.windowcontact",
-      "en": "EContatto finestra",
-      "it": "Contatto finestra"
-    },
-    {
-      "key": "step11.windowcontactdescription",
-      "en": "EContatto finestra in radio frequenza",
-      "it": "Contatto finestra in radio frequenza"
-    },
-    { "key": "step11.quantity", "en": "EQuantità", "it": "Quantità" },
-    {
-      "key": "step11.popover",
-      "en": "ELore Ipsum Contatto Finestra...",
-      "it": "Lore Ipsum Contatto Finestra..."
-    },
-    { "key": "step12.title", "en": "EScarica il PDF", "it": "Scarica il PDF" },
-    {
-      "key": "step12.scarica.privacy",
-      "en": "EAccetto i Termini di Utilizzo e la Privacy Policy",
-      "it": "Accetto i Termini di Utilizzo e la Privacy Policy"
-    },
-    { "key": "step12.download", "en": "ESCARICA", "it": "SCARICA" },
     {
       "key": "step5.popover.3x",
-      "en": "- EPORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE",
-      "it": "- PORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE"
+      "en": "- ERF SIGNAL RANGE: 50 mt CABLED SIGNAL RANGE: 100 mt MAX. BETWEEN CHRONO-THERMOSTAT AND CONTROL UNIT\n - INCLUDED WINDOW CONTACT CONFIGURATION\n - MORE THAN 30 COMMUNICATION PROTOCOLS FOR THE DIALOG WITH THE CANALIZED UNIT AND WI-FI CONFIGURATION INCLUDED TO MANAGE THE SYSTEM FROM THE APP PROAIR MULTIZONE",
+      "it": "- PORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
     },
     {
       "key": "step5.popover.4x",
-      "en": "- EDISPONIBILE PER ALEXA E GOOGLE HOME\n - PORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE",
-      "it": "- DISPONIBILE PER ALEXA E GOOGLE HOME\n - PORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE"
+      "en": "- EAVAILABLE WITH ALEXA AND GOOGLE HOME FUNCTION\n - ERF SIGNAL RANGE: 50 mt CABLED SIGNAL RANGE: 100 mt MAX. BETWEEN CHRONO-THERMOSTAT AND CONTROL UNIT\n - INCLUDED WINDOW CONTACT CONFIGURATION\n - MORE THAN 30 COMMUNICATION PROTOCOLS FOR THE DIALOG WITH THE CANALIZED UNIT AND WI-FI CONFIGURATION INCLUDED TO MANAGE THE SYSTEM FROM THE APP PROAIR MULTIZONE",
+      "it": "- DISPONIBILE PER ALEXA E GOOGLE HOME\n - PORTATA SEGNALE RF: 50 mt PORTATA SEGNALE CABLATO: 100 mt MAX. TRA CRONO E CENTRALINA\n - PREDISPOSTA ALL’UTILIZZO DEL CONTATTO FINESTRA\n - OLTRE 30 PROTOCOLLI DI COMUNICAZIONE INTEGRATI PRESENZA MODULO WI-FI PER L’UTILIZZO DELL’APP PROAIR MULTI ZONE",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
     },
-    { "key": "step6.popover.EOLO3", "en": "", "it": "" },
-    { "key": "step6.popover.LAM2", "en": "", "it": "" },
-    { "key": "step6.popover.MINI_EOLO3", "en": "", "it": "" },
-    { "key": "step6.popover.LAM3", "en": "", "it": "" },
-    { "key": "step6.popover.EOLO4", "en": "", "it": "" },
-    { "key": "step6.popover.EOLO5", "en": "", "it": "" },
-    { "key": "step6.popover.LAM4", "en": "", "it": "" },
-    { "key": "step6.popover.LAM5", "en": "", "it": "" },
-    { "key": "step6.popover.LAM6", "en": "", "it": "" },
-    { "key": "step6.popover.MINI_EOLO4", "en": "", "it": "" },
-    { "key": "step6.popover.EOLO2", "en": "", "it": "" },
-    { "key": "step6.popover.LAM7", "en": "", "it": "" },
-    { "key": "step6.popover.LAM8", "en": "", "it": "" }
+    {
+      "key": "step6.title",
+      "en": "select Plenum for {{brand}} {{model}}",
+      "it": "Scegli il Plenum per {{brand}} {{model}}",
+      "note": ""
+    },
+    {
+      "key": "step6.nb",
+      "en": "nb: check precisely Plenum dimensions",
+      "it": "nb:controllare attentamente le dimensioni di ingombro del plenum",
+      "note": ""
+    },
+    { "key": "step6.plenum", "en": "Plenum", "it": "Plenum", "note": "" },
+    {
+      "key": "step6.popover.EOLO3",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.LAM2",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.MINI_EOLO3",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.LAM3",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.EOLO4",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.EOLO5",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.LAM4",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.LAM5",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.LAM6",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.MINI_EOLO4",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.EOLO2",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.LAM7",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step6.popover.LAM8",
+      "en": "",
+      "it": "",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step7.title",
+      "en": "Select combination of chrono-thermostats for {{brand}} {{model}}",
+      "it": "Scegli la combinazione del cronotermostato per {{brand}} {{model}}",
+      "note": ""
+    },
+    {
+      "key": "step7.title.left",
+      "en": "Radio Frequency 2 x 1,5 V tipo AA",
+      "it": "Radio Frequenza 2 x 1,5 V tipo AA",
+      "note": ""
+    },
+    { "key": "step7.title.right", "en": "Cabled", "it": "Cablato", "note": "" },
+    {
+      "key": "step7.chronothermostat",
+      "en": "Chrono-thermostat",
+      "it": "Cronotermostato",
+      "note": ""
+    },
+    {
+      "key": "step8.title",
+      "en": "Select chrono-thermostat colour for each zone",
+      "it": "Scegli il colore del cronotermostato zona per zona",
+      "note": ""
+    },
+    {
+      "key": "step8.zone",
+      "en": "Zone {{NNN}}",
+      "it": "Zona {{NNN}}",
+      "note": ""
+    },
+    {
+      "key": "step8.whiteupper",
+      "en": "WHITE LUMIX",
+      "it": "BIANCO LUMIX",
+      "note": ""
+    },
+    {
+      "key": "step8.white",
+      "en": "White Lumix",
+      "it": "Bianco Lumix",
+      "note": ""
+    },
+    {
+      "key": "step8.greyupper",
+      "en": "TITANIUM GREY",
+      "it": "GRIGIO TITANIO",
+      "note": ""
+    },
+    {
+      "key": "step8.grey",
+      "en": "Titanium Grey",
+      "it": "Grigio Titanio",
+      "note": ""
+    },
+    {
+      "key": "step8.blackupper",
+      "en": "DEEP BLACK",
+      "it": "NERO PROFONDO",
+      "note": ""
+    },
+    {
+      "key": "step8.black",
+      "en": "Deep Black",
+      "it": "Nero Profondo",
+      "note": ""
+    },
+    {
+      "key": "step9.title",
+      "en": "Select additional Kir for {{brand}} {{model}}",
+      "it": "Scegli il Kit di completamento per {{brand}} {{model}}",
+      "note": ""
+    },
+    { "key": "step9.kit", "en": "Kit", "it": "Kit", "note": "" },
+    {
+      "key": "step9.kit125",
+      "en": "Rapid kit with connection size Ø125mm and grilles with adjustable flaps",
+      "it": "Kit rapid con attacchi Ø125 e bocchette ad alette regolabili",
+      "note": ""
+    },
+    {
+      "key": "step9.kit150",
+      "en": "Rapid kit with connection size Ø150mm and grilles with adjustable flaps",
+      "it": "Kit rapid con attacchi Ø150 e bocchette ad alette regolabili",
+      "note": ""
+    },
+    {
+      "key": "step9.kit200",
+      "en": "Rapid kit with connection size Ø200mm and grilles with adjustable flaps",
+      "it": "Kit rapid con attacchi Ø200 e bocchette ad alette regolabili",
+      "note": ""
+    },
+    {
+      "key": "step9.kit150inclinate",
+      "en": "Rapid kit with connection size Ø150mm and grilles with 15° tilted flaps",
+      "it": "Kit rapid con attacchi Ø150 e bocchette ad alette inclinate 15°",
+      "note": ""
+    },
+    {
+      "key": "step9.kit150diffusori",
+      "en": "Rapid kit with connection size Ø150mm and linear diffuser with 2 slots and length 1000mm",
+      "it": "Kit rapid con attacchi Ø150 e diffusori lineari l=1000mm 2 feritoie",
+      "note": ""
+    },
+    {
+      "key": "step10.title",
+      "en": "Select extra",
+      "it": "Scegli gli accessori",
+      "note": ""
+    },
+    {
+      "key": "step10.rele",
+      "en": "Relay module",
+      "it": "Modulo Relè",
+      "note": ""
+    },
+    {
+      "key": "step10.reledescription",
+      "en": "Relay module for fan coil or zone valves",
+      "it": "Modulo relè 4 zone per impianti radianti e per fancoil",
+      "note": ""
+    },
+    {
+      "key": "step10.quantity",
+      "en": "Quantity",
+      "it": "Quantità",
+      "note": ""
+    },
+    {
+      "key": "step10.popover",
+      "en": "Connection to the system with RJ45 plug connectors for 8-wire cables  \nFixing on din track  \nPower supply 24 vdc  \n4 Output relays  \n4 Led lights for relay status  \nLed for alarms and diagnostics  \nInput for external temperature sensor (ntc type)  \nContact capacity:   \n- 8a at 230 vac maximum resistive load\n- 6a at 230 vac maximum inductive load\n- 5a at 30 v maximum resistive load\n- 3a at 30 v maximum inductive load",
+      "it": "Collegamento al sistema con connettori plug RJ45 per cavi a 8 poli  \n Fissaggio su guida DIN  \n Alimentazione 24 VDC  \n 4 Relè di uscita  \n 4 Led per l’indicazione dello stato del relè  \n Led per segnalazione e diagnostica  \n Ingresso per sensore di temperatura esterna (tipo ntc 10kω a 25 °C, non fornita)  \n Capacità di contatto:  \n- 8a a 230 VAC massimo carico resistivo\n- 6a a 230 VAC massimo carico induttivo\n- 5a a 30 VDC massimo carico resistivo\n- 3a a 30 VDC massimo carico induttivo",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step11.title]",
+      "en": "Select extra",
+      "it": "Scegli gli accessori",
+      "note": ""
+    },
+    {
+      "key": "step11.windowcontact",
+      "en": "Window contact",
+      "it": "Contatto finestra",
+      "note": ""
+    },
+    {
+      "key": "step11.windowcontactdescription",
+      "en": "Radio frequency window contact",
+      "it": "Contatto finestra in radio frequenza",
+      "note": ""
+    },
+    {
+      "key": "step11.quantity",
+      "en": "Quantity",
+      "it": "Quantità",
+      "note": ""
+    },
+    {
+      "key": "step11.popover",
+      "en": "Battery power supply: CR2032  \nTransmission in rf with the Polaris 3X and Polaris 4X control units  \nConsisting of rf and magnet module  \nRf module fitted with terminal for control of a window or wired contact  \nRed led signalling window open  \nConfigurable from the Polaris 3X and Polaris 4X control units for badge control  \nOpening of the contact involves:  \nClosing of the zone buffer  \nThe indication on the chronothermostat display  \nIndication in multizone proair application  \nSecuring using the double-sided tape provided  \n Dimensions of the RF transmitter module (mm): 28.8 X 95.3 X 20   \n Magnet dimensions (mm): 18 x 33 x 11  ",
+      "it": "Alimentazione a batteria: CR2032 (FORNITA DI SERIE)  \nTrasmissione in RF con le centraline Polaris 3X e Polaris 4X  \nComposto da modulo RF e magnete  \nModulo RF predisposto di morsetto per la gestione di un contatto finestra cablato  \nLed ROSSO di segnalazione finestra aperta  \nConfigurabile dalle centraline Polaris 3X e Polaris 4X per la gestione Badge  \nL’apertura del contatto comporta:  \nla chiusura della serranda E/O L'APERTURA DELLE ELETTROVALVOLE DI ZONA  \nL' Indicazione SUL DISPLAY DEL cronotermostato  \nIndicazione in Applicazione Proair Multizone  \nFissaggio mediante biadesivo in dotazione  \nDimensioni modulo trasmettitore RF (mm): 28,8 x 95,3 x 20   \nDimensioni magnete (mm): 18 x 33 x 11  ",
+      "note": "Due spazi a fine riga per indicare di andare a capo, altrimenti il testo viene messo nella stessa linea\nTrattino \"-\" a inizio riga per lista puntata\nUna riga vuota per iniziare nuovo paragrafo (con interlinea)"
+    },
+    {
+      "key": "step12.title",
+      "en": "Download PDF file",
+      "it": "Scarica il PDF",
+      "note": ""
+    },
+    {
+      "key": "step12.scarica.privacy",
+      "en": "I accept terms of use and Privacy Policy",
+      "it": "Accetto i Termini di Utilizzo e la Privacy Policy",
+      "note": ""
+    },
+    { "key": "step12.download", "en": "DOWNLOAD", "it": "SCARICA", "note": "" }
   ]
 }
